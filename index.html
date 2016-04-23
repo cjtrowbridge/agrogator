@@ -1,29 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<!-- Required meta tags always come first -->
+		<meta charset="utf-8">
 		<title>Agrogator</title>
-		<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		
 		<script src="https://www.google.com/jsapi"></script>
 		<script src="js/agrogator-1.0.js"></script>
 	</head>
 	<body>
-		<h1>Agrogator</h1>
-		<p>This free script helps aggregate rss feeds in-browser using Google's free Feeds API and JQuery.</p>
-		<p>To change, add or remove feeds, simply add amnother object with class "agrogator_enclosure" and a data-uri pointing to the rss feed you want to add.</p>
-		<p>All feeds are fetched, up to the maximum number of entries set in the included script, and then added to the container and sorted by pubdate.</p>
-		<p>Enjoy!</p>
-		<div class="agrogator">
-			<h2>News</h2>
-			<span class="agrogator_enclosure" data-uri="http://stallman.org/rss/rss.xml"></span>
-			<span class="agrogator_enclosure" data-uri="https://news.ycombinator.com/rss"></span>
-			<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/web_design/.rss"></span>
-			<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/Entrepreneur/.rss"></span>
-			<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/HowToHack/.rss"></span>
-			<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/programming/.rss"></span>
-			<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/sysadmin/.rss"></span>
-			<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/Futurology/.rss"></span>
-			<span class="agrogator_enclosure" data-uri="https://devstash.io/trending.atom"></span>
-			<div class="agrogator_container"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Agrogator</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<p>This free script helps aggregate rss feeds in-browser using Google's free Feeds API and JQuery.</p>
+					<p>To change, add or remove feeds, simply add amnother object with class "agrogator_enclosure" and a data-uri pointing to the rss feed you want to add.</p>
+					<p>All feeds are fetched, up to the maximum number of entries set in the included script, and then added to the container and sorted by pubdate.</p>
+					<p>Enjoy!</p>
+					<div class="agrogator">
+						<h2>News</h2>
+						<span class="agrogator_enclosure" data-uri="http://stallman.org/rss/rss.xml"></span>
+						<span class="agrogator_enclosure" data-uri="https://news.ycombinator.com/rss"></span>
+						<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/web_design/.rss"></span>
+						<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/Entrepreneur/.rss"></span>
+						<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/HowToHack/.rss"></span>
+						<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/programming/.rss"></span>
+						<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/sysadmin/.rss"></span>
+						<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/Futurology/.rss"></span>
+						<span class="agrogator_enclosure" data-uri="https://devstash.io/trending.atom"></span>
+						<div class="agrogator_container"></div>
+					</div>
+				</div>
+			</div>
 		</div>
+
+		<!-- jQuery first, then Bootstrap JS. -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 	</body>
 </html>
