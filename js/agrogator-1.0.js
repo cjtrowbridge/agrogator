@@ -3,6 +3,7 @@ google.load("feeds", "1");
 function Agrogate(){
 	$(".agrogator").each(function(){
 		var agrogator = this;
+		$(agrogator).find(".agrogator_container").html('');
 		$(agrogator).find(".agrogator_enclosure").each(function(){
 			var feed_uri = $(this).data('uri');
 			var feed = new google.feeds.Feed(feed_uri);
