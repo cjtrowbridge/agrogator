@@ -1,0 +1,14 @@
+.story_container{
+  padding: .5rem 0 1rem 0;
+}
+.agrogator a,
+.agrogator i{
+  display: block;
+}
+.agrogator p{
+	display: none;
+	color: #c6c6c6;
+}
+.agrogator p:hover{
+	color: #000;
+}
