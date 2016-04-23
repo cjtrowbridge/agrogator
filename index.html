@@ -18,15 +18,9 @@
 			*/
 			.agrogator p{
 				display: none;
+				color: #c6c6c6;
 			}
-			.agrogator p,
-			.heading a,
-			.heading p{
-				color: #ededed;
-			}
-			.heading:hover a,
-			.heading:hover p,
-			.agrogator:hover p{
+			.agrogator p:hover{
 				color: #000;
 			}
 		</style>
@@ -36,7 +30,7 @@
 			<div class="heading row">
 				<div class="col-xs-12">
 					<h1>Agrogator</h1>
-					<a href="javascript:void(0);" onclick="$('.agrogator p').slideToggle('fast');">Show/Hide Story Contents</a>
+					</p><a href="javascript:void(0);" onclick="$('.agrogator p').slideToggle('fast');">Show/Hide Story Contents</a>
 					<p>This free script helps aggregate rss feeds in-browser using Google's free Feeds API and JQuery.</p>
 					<p>To change, add or remove feeds, simply add amnother object with class "agrogator_enclosure" and a data-uri pointing to the rss feed you want to add.</p>
 					<p>All feeds are fetched, up to the maximum number of entries set in the included script, and then added to the container and sorted by pubdate.</p>
