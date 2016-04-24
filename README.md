@@ -5,4 +5,4 @@ To change, add or remove feeds, simply add another object with class "agrogator_
 
 All specified feeds are fetched, up to the maximum number of entries set in the included script, and then added to the container and sorted by pubdate.
 
-Check out a live preview (https://cjtrowbridge.com/agrogator "Live Preview").
+Check out a [live preview](https://cjtrowbridge.com/agrogator).
