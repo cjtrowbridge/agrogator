@@ -26,6 +26,7 @@
 						<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/StockMarket/.rss"></span>
 						<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/wallstreetbets/.rss"></span>
 						<span class="agrogator_enclosure" data-uri="https://www.reddit.com/r/algotrading/.rss"></span>
+						<span class="agrogator_enclosure" data-uri="http://www.smarteranalyst.com/category/analyst-news/feed/"></span>
 						<div class="agrogator_container"></div>
 					</div>
 				</div>
